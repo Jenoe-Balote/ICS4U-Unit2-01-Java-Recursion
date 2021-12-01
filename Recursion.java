@@ -36,10 +36,9 @@ final class Recursion {
         // https://stackoverflow.com/questions/9723912/
         // reversing-a-string-with-recursion-in-java
         final String returnValue;
-        final usrInput;
 
         if (null == usrInput || usrInput.length() <= 1) {
-            return usrInput;
+            returnValue = usrInput;
         } else {
             returnValue = reverse(usrInput.substring(1)) + usrInput.charAt(0);
         }
