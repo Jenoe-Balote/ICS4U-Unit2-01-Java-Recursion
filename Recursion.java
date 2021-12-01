@@ -31,7 +31,7 @@ final class Recursion {
      * @param usrInput is the string inputted by the user.
      * @return the reversed string.
      */
-    public static String reverse(String usrInput) {
+    public static String reverse(final String usrInput) {
         // This function uses recursion to reverse a string
         // https://stackoverflow.com/questions/9723912/
         // reversing-a-string-with-recursion-in-java
