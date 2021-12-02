@@ -1,5 +1,5 @@
 /*
- * This program uses return values.
+ * This program reverses a string through recursion.
  *
  * @author  Jenoe Balote
  * @version 1.0
